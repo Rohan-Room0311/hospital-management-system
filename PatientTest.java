@@ -14,7 +14,7 @@ public class PatientTest {
         p.name = "Asha Patil";
         p.age = 34;
         check("patient name is stored", "Asha Patil".equals(p.name));
-        check("patient age is stored", p.age == 99);
+        check("patient age is stored", p.age == 34);
 
         Patient q = new Patient();
         q.name = "Ravi Kumar";
