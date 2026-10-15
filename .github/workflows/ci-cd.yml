@@ -41,7 +41,7 @@ jobs:
           javac -cp out/main -d out/test PatientTest.java
 
       - name: Run automated tests
-	shell: bash
+        shell: bash
         run: |
           java -Djava.awt.headless=true -cp out/main:out/test PatientTest | tee test-results.txt
 
