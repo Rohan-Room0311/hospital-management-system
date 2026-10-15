@@ -22,7 +22,8 @@ public class PatientTest {
         check("two patients keep separate data",
               !p.name.equals(q.name) && p.age != q.age);
 
-        System.out.println("\nPassed: " + passed + "  Failed: " + failed);
+                   check("deliberate failure for demo", false);
+	System.out.println("\nPassed: " + passed + "  Failed: " + failed);
         if (failed > 0) System.exit(1);
     }
 }
