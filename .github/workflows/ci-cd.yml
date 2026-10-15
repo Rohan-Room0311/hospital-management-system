@@ -114,6 +114,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release create "v${{ github.run_number }}" *.jar \
-            --repo "${{ github.repository }}. github.repo" \
+            --repo "${{ github.repository }}" \
             --title "Hospital Management System v${{ github.run_number }}" \
             --generate-notes
