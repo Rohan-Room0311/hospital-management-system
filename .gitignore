@@ -1,0 +1,6 @@
+*.class
+out/
+dist/
+testrun/
+sources.txt
+test-results.txt
